@@ -1,0 +1,10 @@
+Patrick Halter, PHYS 613, HW3
+Latest revision 4/16/17
+
+In order to run the homework scripts correctly on Linux, please run the 'run.sh' file from inside the PRH_HW3 directory. You need a working install of Python 3 with the SciPy stack.
+
+Every time the script runs, plots are generated for both the psi function (that satisfies the LaPlacian) and for its corresponding vector field (with magnitudes taken as the Euclidean norm). These figures are saved in the pics/psi and pics/field directories respectively, with names customized for Q and delta values. Note this does mean you may have multiple files with similar names, e.g. you want to test different boundary condition arrangements but keep the same delta and Q.
+
+Different configuration options for the script are in problem.cfg, which allows complete customization of the boundary conditions, choice of solver and delta, and a few other options.
+
+Already generated are plots for the default configuration as given in the homework for delta = 1 and delta = 0.1
